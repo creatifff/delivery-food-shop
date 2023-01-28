@@ -151,6 +151,7 @@ header {
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
     margin-top: 60px;
+    margin-bottom: 90px;
 }
 
 .filter__btn {
@@ -198,8 +199,12 @@ header {
 }
 
 .item_description {
-    display: grid;
-    gap: 5px;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .item_description h3 {
@@ -233,12 +238,6 @@ header {
     color: #FFFFFF;
 }
 
-.item_description {
-    position: absolute;
-    top: 70%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-}
 
 .items__show__all {
     background: #E9F8FB;

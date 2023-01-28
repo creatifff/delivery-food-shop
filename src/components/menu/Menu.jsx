@@ -33,11 +33,10 @@ const Menu = () => {
             <div className="grid-section">
                 <div className="items">
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (4).png" alt="item__image"/>
-
+                        <img src="src/assets/img/item__image2.svg" alt="item__image"/>
                     </div>
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (1).png" alt=""/>
+                        <img src="src/assets/img/item__image2.svg" alt="item__image"/>
                         <div className="item_description">
                             <h3>Салат “Греческий”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
@@ -48,7 +47,7 @@ const Menu = () => {
                         </div>
                     </div>
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (2).png" alt=""/>
+                        <img src="src/assets/img/item__image3.svg" alt="item__image"/>
                         <div className="item_description">
                             <h3>Салат “Тропический”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
@@ -59,7 +58,7 @@ const Menu = () => {
                         </div>
                     </div>
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (3).png" alt=""/>
+                        <img src="src/assets/img/item__image4.svg" alt=""/>
                         <div className="item_description">
                             <h3>Салат “Японка”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
@@ -71,7 +70,7 @@ const Menu = () => {
                     </div>
 
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (5).png" alt="item__image"/>
+                        <img src="src/assets/img/item__image5.svg" alt="item__image"/>
                         <div className="item_description">
                             <h3>Салат “Собери Сам”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
@@ -82,7 +81,7 @@ const Menu = () => {
                         </div>
                     </div>
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (6).png" alt=""/>
+                        <img src="src/assets/img/item__image2.svg" alt=""/>
                         <div className="item_description">
                             <h3>Салат “Цезарь”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
@@ -93,7 +92,7 @@ const Menu = () => {
                         </div>
                     </div>
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (7).png" alt=""/>
+                        <img src="src/assets/img/item__image3.svg" alt=""/>
                         <div className="item_description">
                             <h3>Салат “Оливье”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
@@ -104,7 +103,7 @@ const Menu = () => {
                         </div>
                     </div>
                     <div className="item">
-                        <img src="src/assets/web-site-icons/item__image (8).png" alt=""/>
+                        <img src="src/assets/img/item__image4.svg" alt=""/>
                         <div className="item_description">
                             <h3>Салат “Летний”</h3>
                             <p className="weight">300 грамм - 1 порция</p>
