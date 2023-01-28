@@ -1,13 +1,12 @@
+import Item from "../../item/Item.jsx";
+
 const Menu = () => {
     return (<section className="menu" id="menu">
         <div className="container">
             <div className="section__title">Наше меню</div>
             <div className="title__line"></div>
             <div className="filter__grid">
-                <div className="filter__btn active">
-                    <img src="src/assets/img/salad.svg" alt="salad"/>
-                    <p>Салаты</p>
-                </div>
+                <Item/>
                 <div className="filter__btn">
                     <img src="src/assets/img/drinks.svg" alt="drinks"/>
                     <p>Напитки</p>

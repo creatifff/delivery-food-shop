@@ -1,39 +1,40 @@
-import { IconSalad, IconDrinks, IconPizza, IconFries, IconDiscount, IconBurger } from '../components/Icons/Icons'
 export const CATEGORIES = [
     {
         id: 1,
-        src: <IconSalad/>,
+        src: 'src/assets/img/salad.svg',
         name: 'Салаты',
         type: 'salads'
     },
     {
         id: 2,
-        src: <IconDrinks/>,
+        src: 'src/assets/img/drinks.svg',
         name: 'Напитки',
         type: 'drinks'
     },
     {
         id: 3,
-        src: <IconBurger/>,
+        src: 'src/assets/img/burgers.svg',
         name: 'Бургеры',
         type: 'burgers'
     },
     {
         id: 4,
-        src: <IconFries/>,
+        src: 'src/assets/img/fries.svg',
         name: 'Закуски',
         type: 'snacks'
     },
     {
         id: 5,
-        src: <IconPizza/>,
+        src: 'src/assets/img/pizza.svg',
         name: 'Пицца',
         type: 'pizza'
     },
     {
         id: 6,
-        src: <IconDiscount/>,
+        src: 'src/assets/img/discount.svg',
         name: 'Акции',
         type: 'discount'
     },
 ]
+
+
