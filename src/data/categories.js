@@ -3,25 +3,25 @@ export const CATEGORIES = [
         id: 1,
         src: 'src/assets/img/salad.svg',
         name: 'Салаты',
-        type: 'salads'
+        type: 'salad'
     },
     {
         id: 2,
         src: 'src/assets/img/drinks.svg',
         name: 'Напитки',
-        type: 'drinks'
+        type: 'drink'
     },
     {
         id: 3,
         src: 'src/assets/img/burgers.svg',
         name: 'Бургеры',
-        type: 'burgers'
+        type: 'burger'
     },
     {
         id: 4,
         src: 'src/assets/img/fries.svg',
         name: 'Закуски',
-        type: 'snacks'
+        type: 'snack'
     },
     {
         id: 5,

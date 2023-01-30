@@ -1,13 +1,19 @@
-import {CATEGORIES} from "../data/categories";
-
+import React from "react";
 
 const Item = ({ item }) => {
-    const {id, type, name, src } = item;
+    const {id, category, name, src, weight, description } = item;
 
     return (
-        <div className="filter__btn">
-            <img src={src} alt="drinks"/>
-            <p>{name}</p>
+        <div key={id} className="item">
+            <img src={src} alt={name}/>
+            <div className="item_description">
+                <h3>{name}</h3>
+                <p className="weight">{weight}</p>
+                <p className="info">{description}</p>
+                <button className="item__purchase">
+                    Добавить в корзину
+                </button>
+            </div>
         </div>
     );
 };
