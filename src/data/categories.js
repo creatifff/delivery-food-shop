@@ -1,37 +1,44 @@
+import img1 from '../assets/img/salad.svg';
+import img2 from '../assets/img/drinks.svg';
+import img3 from '../assets/img/burgers.svg';
+import img4 from '../assets/img/fries.svg';
+import img5 from '../assets/img/pizza.svg';
+import img6 from '../assets/img/discount.svg';
+
 export const CATEGORIES = [
     {
         id: 1,
-        src: 'src/assets/img/salad.svg',
+        src: img1,
         name: 'Салаты',
         type: 'salad'
     },
     {
         id: 2,
-        src: 'src/assets/img/drinks.svg',
+        src: img2,
         name: 'Напитки',
         type: 'drink'
     },
     {
         id: 3,
-        src: 'src/assets/img/burgers.svg',
+        src: img3,
         name: 'Бургеры',
         type: 'burger'
     },
     {
         id: 4,
-        src: 'src/assets/img/fries.svg',
+        src: img4,
         name: 'Закуски',
         type: 'snack'
     },
     {
         id: 5,
-        src: 'src/assets/img/pizza.svg',
+        src: img5,
         name: 'Пицца',
         type: 'pizza'
     },
     {
         id: 6,
-        src: 'src/assets/img/discount.svg',
+        src: img6,
         name: 'Акции',
         type: 'discount'
     },
