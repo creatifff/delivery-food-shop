@@ -1,3 +1,5 @@
+import introImg from '../../assets/img/intro.svg';
+
 const Intro = () => {
     return (
         <div className="intro">
@@ -12,7 +14,7 @@ const Intro = () => {
                             <p>бесплатная доставка от 500 рублей</p>
                         </div>
                     </div>
-                    <img src="src/assets/img/intro.svg" alt="intro"/>
+                    <img src={introImg} alt="intro"/>
                 </div>
             </div>
         </div>

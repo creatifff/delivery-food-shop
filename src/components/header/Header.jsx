@@ -1,3 +1,4 @@
+import cartImg from '../../assets/img/cart.svg';
 const Header = () => {
     return (
         <header>
@@ -12,7 +13,7 @@ const Header = () => {
                         <a href="#">Сервис</a>
                         <a href="#">О нас</a>
                     </nav>
-                    <img src="src/assets/img/cart.svg" alt="cart"/>
+                    <img src={cartImg} alt="cart"/>
                 </div>
             </div>
         </header>
